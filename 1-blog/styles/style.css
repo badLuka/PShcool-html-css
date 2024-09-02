@@ -2,6 +2,22 @@ body {
 	background: linear-gradient(180deg, #374151 0%, #111827 100%);
 }
 
+p,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
 a {
 	color: #fff;
 	text-decoration: none;
@@ -20,10 +36,16 @@ header p a {
 }
 
 .logo {
-	padding: 6px 12px;
+	display: inline-block;
+	padding: 7px 12px;
 	background: #4B5563;
 	border-radius: 3px;
+	font-size: 18px;
 	margin-right: 18px;
+}
+
+.logo-link span:last-child {
+	font-size: 18px;
 }
 
 ul {
