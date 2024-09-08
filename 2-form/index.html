@@ -18,14 +18,20 @@
         </div>
         <form class="form-registration" action="">
           <input type="text" name="login" placeholder="Логин" />
-          <input type="text" name="first-name" placeholder="Имя" />
-          <input type="text" name="second-name" placeholder="Фамилия" />
+          <div class="form-registration__name">
+            <input type="text" name="first-name" placeholder="Имя" />
+            <input type="text" name="second-name" placeholder="Фамилия" />
+          </div>
           <input type="email" name="email" id="" placeholder="E-mail" />
-          <input type="submit" value="Зарегистрироваться" />
-          <input type="checkbox" name="checkbox" id="checkbox" />
+          <div class="submit">
+            <input type="submit" value="Зарегистрироваться" />
+          </div>
+        </form>
+        <p class="registration__bottom">
+          <input disabled type="checkbox" name="checkbox" id="checkbox" />
           <label for="checkbox">Я прочитал и принимаю</label>
           <a href="#">Условия использования</a>
-        </form>
+        </p>
       </div>
     </main>
   </body>
