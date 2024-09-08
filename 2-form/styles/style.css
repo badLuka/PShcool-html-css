@@ -2,6 +2,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -35,7 +45,6 @@ h1 {
 }
 
 .question__paragraph {
-  font-weight: 400;
   font-size: 18px;
   color: #666;
   text-align: center;
@@ -43,7 +52,6 @@ h1 {
 }
 
 .question__link {
-  font-weight: 400;
   font-size: 18px;
   margin-left: 6px;
   text-decoration: underline;
@@ -57,6 +65,18 @@ h1 {
   flex-direction: column;
   margin-bottom: 22px;
   width: 394px;
+}
+
+.form-registration input {
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+.form-registration input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #999;
 }
 
 .form-registration__name {
@@ -80,7 +100,6 @@ input[name="login"] {
   border: 1px solid #f5f5f5;
   border-radius: 5px;
   color: #333;
-  font-weight: 600;
 }
 
 input {
@@ -94,7 +113,7 @@ input {
 input[type="submit"] {
   background: #089fe0;
   width: 100%;
-  font-weight: 400;
+  height: 44px;
   font-size: 18px;
   text-align: center;
   color: #fff;
@@ -102,20 +121,15 @@ input[type="submit"] {
 }
 
 label {
-  font-weight: 400;
-  font-size: 14px;
   color: #666;
 }
 
 a {
-  font-weight: 400;
-  font-size: 14px;
   color: #089fe0;
 }
 
 .form-registration input::placeholder {
   font-style: italic;
-  font-weight: 400;
   font-size: 16px;
   color: #999;
 }
@@ -127,7 +141,7 @@ a {
 .submit::after {
   position: absolute;
   content: url("../images/arrow.svg");
-  top: 8px;
+  top: 10px;
   right: 24px;
 }
 
@@ -148,8 +162,6 @@ a {
 }
 
 .registration__bottom label {
-  font-weight: 400;
-  font-size: 14px;
   margin-right: 8px;
   color: #666;
 }
