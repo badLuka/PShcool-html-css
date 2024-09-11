@@ -40,29 +40,41 @@ p {
 
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  max-width: 1440px;
-  padding: 80px 180px 0;
+  gap: 77px;
+  max-width: 1080px;
+  padding: 71px 0 69px;
   margin: 0 auto;
-  margin-bottom: 80px;
 }
 
-.header-wrapper {
-  display: flex;
-  align-items: center;
+nav {
+  flex: 1;
 }
 
 header ul {
   display: flex;
-  gap: 52px;
+  align-items: center;
+  gap: 39px;
 }
-
-.header-wrapper span {
+header ul li:first-child {
+  margin-right: 13px;
+}
+.header__form {
+  position: relative;
+}
+.header__form input {
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 11px 12px 11px 49px;
+  background: rgba(31, 41, 55, 0.6);
   color: #fff;
+  border: 0;
 }
-
-header p a {
-  font-size: 18px;
+.header__form label {
+  position: absolute;
+  top: 13px;
+  left: 18px;
 }
 
 .search {
@@ -86,11 +98,11 @@ header p a {
   margin-right: 18px;
 }
 
-.logo-link {
+.logotype {
   margin-right: 77px;
 }
 
-.logo-link span:last-child {
+.logotype span:last-child {
   font-size: 18px;
 }
 
@@ -182,20 +194,20 @@ section {
   margin-bottom: 108px;
 }
 
-section p {
+.block__text {
   width: 708px;
+  max-width: 100%;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 30px;
   margin: 0 auto;
 }
 
-.accent-paragraph {
+.block__text p:first-child {
   font-size: 20px;
   line-height: 32px;
-  margin-bottom: 30px;
-}
-
-.text {
-  line-height: 30px;
-  margin-bottom: 30px;
 }
 
 footer p {

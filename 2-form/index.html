@@ -15,29 +15,27 @@
   <body>
     <main>
       <div class="registration">
-        <h1>Регистрация</h1>
-        <div class="question">
-          <p class="question__paragraph">
+        <div class="form__headling">
+          <h1>Регистрация</h1>
+          <p>
             Уже есть аккаунт?
-            <a class="question__link" href="#">Войти</a>
+            <a href="#">Войти</a>
           </p>
         </div>
-        <form class="form-registration" action="">
+        <form class="form__fields" action="">
           <input type="text" name="login" placeholder="Логин" />
-          <div class="form-registration__name">
+          <div class="field">
             <input type="text" name="first-name" placeholder="Имя" />
             <input type="text" name="second-name" placeholder="Фамилия" />
           </div>
           <input type="email" name="email" id="" placeholder="E-mail" />
-          <div class="submit">
-            <input type="submit" value="Зарегистрироваться" />
+          <button>Зарегистрироваться</button>
+          <div class="form__agreement">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">Я прочитал и принимаю</label>
+            <a class="policy" href="#">Условия использования</a>
           </div>
         </form>
-        <p class="registration__bottom">
-          <input disabled type="checkbox" name="checkbox" id="checkbox" />
-          <label for="checkbox">Я прочитал и принимаю</label>
-          <a href="#">Условия использования</a>
-        </p>
       </div>
     </main>
   </body>
