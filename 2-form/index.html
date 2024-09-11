@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form registration</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <div class="registration">
-        <h1>Регистрация</h1>
-        <div class="question">
-          <p class="question__paragraph">
+        <div class="form__headling">
+          <h1>Регистрация</h1>
+          <p>
             Уже есть аккаунт?
-            <a class="question__link" href="#">Войти</a>
+            <a href="#">Войти</a>
           </p>
         </div>
-        <form class="form-registration" action="">
+        <form class="form__fields" action="">
           <input type="text" name="login" placeholder="Логин" />
-          <input type="text" name="first-name" placeholder="Имя" />
-          <input type="text" name="second-name" placeholder="Фамилия" />
+          <div class="field">
+            <input type="text" name="first-name" placeholder="Имя" />
+            <input type="text" name="second-name" placeholder="Фамилия" />
+          </div>
           <input type="email" name="email" id="" placeholder="E-mail" />
-          <input type="submit" value="Зарегистрироваться" />
-          <input type="checkbox" name="checkbox" id="checkbox" />
-          <label for="checkbox">Я прочитал и принимаю</label>
-          <a href="#">Условия использования</a>
+          <button>Зарегистрироваться</button>
+          <div class="form__agreement">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">Я прочитал и принимаю</label>
+            <a class="policy" href="#">Условия использования</a>
+          </div>
         </form>
       </div>
     </main>
