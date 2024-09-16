@@ -1,0 +1,48 @@
+:root {
+  --main-dark: #000;
+  --main-blue: #357efe;
+  --sticker-green: #1abc9c;
+  --sticker-yellow: #ffc736;
+
+  --section-text: #a6aebd;
+  --accent: #4e5d7c;
+  --ligth-gray: #f1f2f5;
+  --white: #fff;
+
+  --border-rad-8: 8px;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+p,
+a,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

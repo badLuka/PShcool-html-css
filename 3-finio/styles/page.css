@@ -1,0 +1,90 @@
+.section {
+  margin-top: 80px;
+}
+
+.tarifs-list {
+  display: grid;
+  max-width: 1156px;
+  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
+  margin: 0 auto;
+  gap: 24px;
+}
+
+.tarifs-list__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px 40px;
+  border-radius: var(--border-rad-8);
+  box-shadow: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+}
+
+.tarifs-list__card_one {
+  padding-top: 93px;
+}
+
+.card-top {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sticker-green {
+  border-radius: var(--border-rad-8);
+  padding: 4px 16px;
+  width: 124px;
+  color: var(--white);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 140%;
+  background-color: var(--sticker-green);
+}
+
+.card-title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--main-dark);
+}
+
+.card-text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  color: var(--section-text);
+  margin-bottom: 32px;
+}
+
+.card-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.card-main__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-price {
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.card-main p {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 120%;
+  color: var(--accent);
+}
+
+.sticker-yellow {
+  border-radius: var(--border-rad-8);
+  padding: 8px 16px;
+  background-color: var(--sticker-yellow);
+  color: var(--white);
+  text-align: center;
+  vertical-align: middle;
+}

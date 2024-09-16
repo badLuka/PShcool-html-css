@@ -1,0 +1,39 @@
+.section__wrapper {
+  max-width: 1392px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section__h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 120%;
+  margin-bottom: 24px;
+  color: var(--main-dark);
+  text-align: center;
+}
+
+.section__text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  margin-bottom: 40px;
+  color: var(--section-text);
+  text-align: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  margin-bottom: 16px;
+  color: var(--main-dark);
+}
+
+.free-sticker {
+  border-radius: 47px;
+  padding: 12px 63px;
+  background-color: var(--main-blue);
+  color: var(--white);
+  text-align: center;
+}
