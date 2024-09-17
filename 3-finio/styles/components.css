@@ -33,6 +33,9 @@
 .free-sticker {
   border-radius: 47px;
   padding: 12px 63px;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 140%;
   background-color: var(--main-blue);
   color: var(--white);
   text-align: center;

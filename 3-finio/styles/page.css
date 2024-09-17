@@ -14,13 +14,40 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 48px 40px;
+  padding: 48px 36px;
   border-radius: var(--border-rad-8);
   box-shadow: 0 0 32px 0 rgba(78, 93, 124, 0.16);
+  transition: background-color 0.3;
 }
 
 .tarifs-list__card_one {
   padding-top: 93px;
+}
+
+.tarifs-list__card_active {
+  background-color: var(--main-blue);
+}
+
+.tarifs-list__card_active .card-title {
+  color: var(--white);
+}
+
+.tarifs-list__card_active .card-text {
+  color: var(--hover-gray);
+}
+
+.tarifs-list__card_active .field {
+  color: var(--white);
+}
+
+.tarifs-list__card_active .card-main__fields:nth-child(2) {
+  border-top: 1px solid var(--border-hov);
+  border-bottom: 1px solid var(--border-hov);
+}
+
+.tarifs-list__card_active .free-sticker {
+  background-color: var(--white);
+  color: var(--main-blue);
 }
 
 .card-top {
@@ -62,10 +89,38 @@
   margin-bottom: 40px;
 }
 
-.card-main__item {
+.card-main__fields {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+}
+
+.card-main__fields:first-child {
+  padding-bottom: 16px;
+}
+
+.card-main__fields:nth-child(2) {
+  border-top: 1px solid var(--ligth-gray);
+  border-bottom: 1px solid var(--ligth-gray);
+  padding: 8px 0;
+}
+
+.card-main__fields:last-child {
+  padding-top: 16px;
+}
+
+.field {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  color: var(--accent);
+}
+
+.field:first-child {
+  flex: 2 0 0;
+}
+
+.field:last-child {
+  flex: 1 0 0;
 }
 
 .total-price {
@@ -73,14 +128,7 @@
   border-bottom: 1px solid var(--light-gray);
 }
 
-.card-main p {
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 120%;
-  color: var(--accent);
-}
-
-.sticker-yellow {
+.card-main__fields > .sticker-yellow {
   border-radius: var(--border-rad-8);
   padding: 8px 16px;
   background-color: var(--sticker-yellow);
