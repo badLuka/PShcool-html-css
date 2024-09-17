@@ -39,4 +39,15 @@
   background-color: var(--main-blue);
   color: var(--white);
   text-align: center;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .free-sticker {
+    padding: 12px 58px;
+  }
+  .section__h2,
+  .section__text {
+    text-align: left;
+  }
 }

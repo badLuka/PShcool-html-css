@@ -20,6 +20,12 @@
   transition: background-color 0.3;
 }
 
+@media (max-width: 800px) {
+  .tarifs-list__card {
+    padding: 48px 24px;
+  }
+}
+
 .tarifs-list__card_one {
   padding-top: 93px;
 }
