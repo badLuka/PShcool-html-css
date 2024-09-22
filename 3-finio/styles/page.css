@@ -5,7 +5,7 @@
 .tarifs-list {
   display: grid;
   max-width: 1156px;
-  grid-template-columns: repeat(auto-fill, minmax(328px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(328px, 1fr));
   margin: 0 auto;
   gap: 24px;
 }
@@ -142,4 +142,9 @@
   color: var(--white);
   text-align: center;
   vertical-align: middle;
+}
+
+.hero {
+  background: var(--sky-blue);
+  height: 400px;
 }

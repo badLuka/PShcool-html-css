@@ -42,6 +42,14 @@
   cursor: pointer;
 }
 
+.free-sticker_bg-white {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: var(--white);
+  color: var(--main-blue);
+  white-space: nowrap;
+}
+
 @media (max-width: 800px) {
   .free-sticker {
     padding: 12px 58px;
