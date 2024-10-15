@@ -1,4 +1,4 @@
-const yourLanguage = prompt("Укажи свой язык в формате ru, en, de, fr, ha, zh");
+const yourLanguage = prompt("Укажи свой язык в формате ru, en, de, fr, ha, zh").toLowerCase();
 
 switch (yourLanguage) {
     case 'en':
